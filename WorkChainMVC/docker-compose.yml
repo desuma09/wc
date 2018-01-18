@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  workchainmvc:
+    image: workchainmvc
+    build:
+      context: .\WorkChainMVC
+      dockerfile: Dockerfile
